@@ -14,13 +14,13 @@
 <body>
 <div>Hello, <%= session.getAttribute("userName") %></div>
 </br>
-<div><a href="/test?action=logOut">Exit</a></div>
+<div><a href="/app/test?action=logOut">Exit</a></div>
 
 <div>
     Menu:
     <ul>
         <li>
-            <a href="/test?action=showAllStudents">Students</a>
+            <a href="/app/test?action=showAllStudents">Students</a>
         </li>
     </ul>
 </div>

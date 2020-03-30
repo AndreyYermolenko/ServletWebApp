@@ -13,6 +13,6 @@ public class ProcessorLogOut extends Processor {
     @Override
     public ProcessorResult getResult(HttpServletRequest request) {
         request.getSession().invalidate();
-        return new ProcessorResult("/welcome", "", false);
+        return new ProcessorResult("/app/welcome", "", false);
     }
 }
