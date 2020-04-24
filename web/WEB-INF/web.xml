@@ -3,8 +3,6 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
          version="4.0">
-<!--  на данный сервлет (процессор) приходят все запросы, где гет-параметром указано действие
-  дальше сервлет вызывает нужную jsp страницу-->
     <servlet>
         <servlet-name>TestServlet</servlet-name>
         <servlet-class>org.example.controller.servlets.TestServlet</servlet-class>

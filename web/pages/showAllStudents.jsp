@@ -1,13 +1,7 @@
 <%@ page import="org.example.controller.processors.ProcessorShowAllStudents" %>
 <%@ page import="org.example.model.Student" %>
 <%@ page import="java.util.List" %>
-<%@ page import="java.util.ArrayList" %><%--
-  Created by IntelliJ IDEA.
-  User: Andrey
-  Date: 24.02.2020
-  Time: 17:06
-  To change this template use File | Settings | File Templates.
---%>
+<%@ page import="java.util.ArrayList" %>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>

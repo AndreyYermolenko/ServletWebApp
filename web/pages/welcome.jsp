@@ -11,7 +11,7 @@
     <title>Welcome</title>
 </head>
 <body>
-    <form name="userForm" action="/app/test?action=mainPage" method="post">
+    <form name="userForm" action="/test?action=mainPage" method="post">
         <input type="text" name="userName" placeholder="Type your name" value="" size="20"/>
         Enter your name: <input type="submit" value="Enter"/>
     </form>

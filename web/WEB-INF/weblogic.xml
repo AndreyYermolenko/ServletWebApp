@@ -5,5 +5,5 @@
  http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd
  http://xmlns.oracle.com/weblogic/weblogic-web-app
  http://xmlns.oracle.com/weblogic/weblogic-web-app/1.0/weblogic-web-app.xsd">
-    <context-root>/app</context-root>
+    <context-root>/</context-root>
 </weblogic-web-app>

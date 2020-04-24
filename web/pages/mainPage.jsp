@@ -1,10 +1,3 @@
-<%--
-  Created by IntelliJ IDEA.
-  User: olbe0615
-  Date: 17.02.2020
-  Time: 17:33
-  To change this template use File | Settings | File Templates.
---%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <%@ page errorPage="errorPage.jsp" %>
 <html>
@@ -14,13 +7,13 @@
 <body>
 <div>Hello, <%= session.getAttribute("userName") %></div>
 </br>
-<div><a href="/app/test?action=logOut">Exit</a></div>
+<div><a href="/test?action=logOut">Exit</a></div>
 
 <div>
     Menu:
     <ul>
         <li>
-            <a href="/app/test?action=showAllStudents">Students</a>
+            <a href="/test?action=showAllStudents">Students</a>
         </li>
     </ul>
 </div>
@@ -29,7 +22,7 @@
     Main part:
     <% String includedPage = (String) session.getAttribute("includedPage"); %>
     <% if (includedPage != null && !includedPage.isEmpty()) { %>
-        <jsp:include page="<%= includedPage %>" />
+    <jsp:include page="<%= includedPage %>" />
     <% } %>
 </div>
 

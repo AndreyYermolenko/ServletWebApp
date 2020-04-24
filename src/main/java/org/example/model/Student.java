@@ -5,6 +5,10 @@ public class Student {
     private int id;
     private String name;
 
+    public Student() {
+        count++;
+    }
+
     public Student(String name) {
         count++;
         this.id = count;
